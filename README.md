@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Todo List Web App
+This is a simple Todo List web application built with React. You can use it to keep track of your tasks, mark them as completed, edit task details, and delete tasks. The app also displays the date and time when each task was created.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add Task: You can add a new task by entering its name and clicking the "Create Task" button. If you try to add an empty task, the app will prompt you to enter a task name.
 
-## Available Scripts
+Edit Task: You can edit the name and description of a task by clicking the "Edit" button. This opens a modal where you can make your changes and save them. Once saved, the task will be updated with your edits.
 
-In the project directory, you can run:
+Delete Task: If you want to remove a task from your list, click the "Delete" button next to the task. This action is irreversible, so be careful!
 
-### `npm start`
+Mark as Completed: You can mark a task as completed by clicking the "Mark as Completed" radio button. Once marked as completed, the task will be crossed out, and the date and time when it was completed will be displayed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Task History: Completed tasks are moved to a separate section, where you can see the date and time they were completed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to Use
+Add a Task:
 
-### `npm test`
+Enter a task name in the input field.
+Click the "Create Task" button.
+Edit a Task:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Click the "Edit" button next to the task you want to edit.
+In the modal that opens, modify the task name and description.
+Click the "Save" button to save your changes.
+Delete a Task:
 
-### `npm run build`
+Click the "Delete" button next to the task you want to remove. Be aware that this action is irreversible.
+Mark a Task as Completed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click the radio button labeled "Mark as Completed" next to the task you've finished.
+View Completed Tasks:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Completed tasks are moved to a separate section, and you can see the date and time they were completed.
+Local Storage
+Your tasks are saved to your browser's local storage, so they will persist even if you close the app or refresh the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Get Started
+To run this app on your local machine, follow these steps:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone this repository.
+Open your terminal and navigate to the project directory.
+Run npm install to install the required dependencies.
+Run npm start to start the development server.
+Open your web browser and go to http://localhost:3000.
+Technologies Used
+React
+date-fns: A library for formatting dates and times.
+Font Awesome: For icons used in the app.
